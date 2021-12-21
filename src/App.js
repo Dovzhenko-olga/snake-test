@@ -1,10 +1,15 @@
-import styles from './App.module.css';
+import { Provider } from 'react-redux';
+import configureStore from './redux/configureStore.js';
+
+import Game from './components/Game';
+
+const store = configureStore();
 
 function App() {
   return (
-    <div className={styles.App}>
-      
-    </div>
+    <Provider store={store}>
+      <Game />
+    </Provider >
   );
 }
 

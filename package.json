@@ -1,17 +1,21 @@
 {
-  "name": "goit-react-hw-template",
+  "name": "snake-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dovzhenko-olga.github.io/goit-react-hw-template",
+  "homepage": "https://dovzhenko-olga.github.io/snake-test",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "gh-pages": "^3.2.3",
+    "immutable": "^4.0.0",
     "modern-normalize": "^1.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
     "react-scripts": "4.0.3",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
